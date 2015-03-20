@@ -25,7 +25,7 @@ Assignment part 2, Extract mean and std measurements
 Assignment part 3, apply descriptive activity names
 -Use Activity_labels.txt to define levels for a new variable called activity and add to dataframe.
 
-Assignemnt part 4, descriptive variable names
+Assignment part 4, descriptive variable names
 -Since features_info.txt sufficiently explains the labels in features.txt and the other variables were descriptively named as they were added (subjectID, ActivityID, Activity), this step just removes special characters "-", "(" and ")" from the variable names
 
 Assignment part 5, create smaller summary dataset
