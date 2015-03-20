@@ -4,7 +4,7 @@ https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Datas
 
 
 
-The summarized tidy dataset has 62 variables named as follows.  All measurement variables are the mean of all observations for the participant and activity. 
+The summarized tidy dataset has 68 variables named as follows.  All measurement variables are the mean of all observations for the participant and activity. 
 
  $ VARIABLE NAME           : TYPE / DESCRIPTION
  $ SubjectID               : int  / identifier of study participant
@@ -33,6 +33,12 @@ The summarized tidy dataset has 62 variables named as follows.  All measurement 
  $ tBodyGyrostdX           : num  / standard deviation of gyroscope body signal in X axis
  $ tBodyGyrostdY           : num  / standard deviation of gyroscope body signal in Y axis
  $ tBodyGyrostdZ           : num  / standard deviation of gyroscope body signal in Z axis
+ $ tBodyGyroJerkmeanX      : num  / mean time derivative of gyroscope body signal in X axis
+ $ tBodyGyroJerkmeanY      : num  / mean time derivative of gyroscope body signal in Y axis
+ $ tBodyGyroJerkmeanZ      : num  / mean time derivative of gyroscope body signal in Z axis
+ $ tBodyGyroJerkstdX       : num  / standard dev. of time derivative of gyroscope body signal in X axis
+ $ tBodyGyroJerkstdY       : num  / standard dev. of time derivative of gyroscope body signal in Y axis
+ $ tBodyGyroJerkstdZ       : num  / standard dev. of time derivative of gyroscope body signal in Z axis
 
  $ fBodyAccmeanX           : num  / Fast Fourier Transform of tBodyAccmeanX 
  $ fBodyAccmeanY           : num  / Fast Fourier Transform of tBodyAccmeanY

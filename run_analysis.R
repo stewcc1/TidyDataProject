@@ -34,7 +34,7 @@ dfall<-rbind(dftest, dftrain)
 
 #### ASSIGNMENT PART 2 ####
 #variables to keep
-keepVec1<-c(1:6, 41:46, 81:86, 121:126, 266:271, 345:350, 424:429)
+keepVec1<-c(1:6, 41:46, 81:86, 121:126, 161:166, 266:271, 345:350, 424:429)
 keepVec2<-c(201,202,214,215,227,228,240,241,253,254,503,504,516,517,529,530,542,543,562,563) 
 keepVec<-c(keepVec1, keepVec2)
 dfSmall<-dfall[, keepVec]
