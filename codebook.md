@@ -1,6 +1,8 @@
 Source Data, as downloaded 3/3/15:
 https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
 
+This codebook modifies the information in the source data codebook features_info.txt, included in the download indicated above.  Variable names in the tidy dataset are changed from the source only by the removal of "-" and "()" and can therefore be easily mapped to the source variables.
+
 
 
 
